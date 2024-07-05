@@ -17,16 +17,12 @@
       document.documentElement.classList.remove("dark");
     }
   </script>
-  <!-- animate cs -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  <link rel="stylesheet" href="./src/animate.css" />
+  <!-- aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <body>
     <!-- header strat -->
-    <header
-      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 animate__animated animate__fadeInDown"
+    <header 
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10" data-aos="fade-down" data-aos-duration="1000"
     >
       <div class="container">
         <div class="flex items-center justify-between relative">
@@ -129,36 +125,36 @@
         <div class="flex flex-wrap">
           <div class="w-full self-center px-4 lg:w-1/2">
             <h1
-              class="text-base font-semibold text-green md:text-xl animate__animated animate__fadeInTopLeft"
+              class="text-base font-semibold text-green md:text-xl " data-aos="fade-down-right" data-aos-duration="1000"
             >
               Halo Semua👋,
             </h1>
             <div
-              class="block font-bold text-4xl text-dark lg:text-5xl dark:text-white animate__animated animate__fadeInLeft"
+              class="block font-bold text-4xl text-dark lg:text-5xl dark:text-white" data-aos="fade-up" data-aos-duration="2000"
             >
               Saya Azhy Sholihin
             </div>
             <h2
-              class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl dark:text-white animate__animated animate__fadeInRight animate__delay-1s"
+              class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl dark:text-white" data-aos="fade-up" data-aos-duration="2700"
             >
               student |
               <span class="text-dark dark:text-white">Webdeveloper</span>
             </h2>
             <p
-              class="text-slate-400 font-medium mb-10 leading-relaxed animate__animated animate__fadeInLeft animate__delay-1s"
+              class="text-slate-400 font-medium mb-10 leading-relaxed" data-aos="fade-up" data-aos-duration="3000" 
             >
               Belajar web progamming itu mudah dan menyenangkan bukan,
               <span class="text-dark font-bold dark:text-white">BUKAN!</span>😊
             </p>
             <a
               href="#Contact"
-              class="text-base font-semibold text-white bg-green rounded-full py-3 px-8 hover:shadow-md hover:opacity-90 transition duration-300 ease-in-out animate__animated animate__fadeInUp animate__delay-1s"
+              class="text-base font-semibold text-white bg-green rounded-full py-3 px-8 hover:shadow-md hover:opacity-90 transition duration-300 ease-in-out" data-aos="zoom-in" data-aos-duration="3000" 
               >Hubungi Saya</a
             >
           </div>
           <div class="w-full self-end px-4 lg:w-1/2">
             <div
-              class="mt-10 lg:mt-9 lg:right-0 animate__animated animate__fadeInUp animate__delay-2s"
+              class="mt-10 lg:mt-9 lg:right-0 " data-aos="fade-up" data-aos-duration="1000"
             >
               <img
                 src="img/anime.jpg"
@@ -178,10 +174,10 @@
     <section id="about" class="pt-36 pb-32 dark:bg-dark">
       <div class="container">
         <div class="flex flex-wrap">
-          <div class="w-full px-4 mb-10 lg:w-1/2">
+          <div class="w-full px-4 mb-10 lg:w-1/2" data-aos="fade-up" data-aos-duration="2500">
             <h1 class="font-bold uppercase text-green mb-3">Tentang Saya</h1>
             <h2
-              class="font-semibold text-dark text-3xl mb-3 lg:text-4xl dark:text-white animate__animated animate__fadeInUp"
+              class="font-semibold text-dark text-3xl mb-3 lg:text-4xl dark:text-white"
             >
               Yuk, Belajar sebagai seorang
               <span class="text-green">Frontend</span> developer
@@ -193,7 +189,7 @@
               HTML, CSS and JavaScript
             </p>
           </div>
-          <div class="w-full px-4 lg:w-1/2">
+          <div class="w-full px-4 lg:w-1/2" data-aos="fade-up" data-aos-duration="2500">
             <h3
               class="font-semibold mb-4 text-dark lg:text-3xl lg:pt-10 dark:text-white animate__animated animate__fadeInUp"
             >
@@ -207,8 +203,8 @@
             </p>
             <div class="flex items-center">
               <!-- instragram -->
-              <a
-                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-500 text-slate-500 hover:border-green hover:bg-green hover:text-white animate__animated animate__zoomIn"
+              <a data-aos="zoom-in" data-aos-duration="2600"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-500 text-slate-500 hover:border-green hover:bg-green hover:text-white "
                 href="https://www.instagram.com/azyy2.7/"
                 target="_blank"
                 ><svg
@@ -226,8 +222,8 @@
               </a>
 
               <!-- faccebok -->
-              <a
-                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-500 text-slate-500 hover:border-green hover:bg-green hover:text-white animate__animated animate__zoomIn"
+              <a data-aos="zoom-in" data-aos-duration="2600"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-500 text-slate-500 hover:border-green hover:bg-green hover:text-white "
                 href="https://www.facebook.com/Zhyy/"
                 target="_blank"
                 ><svg
@@ -245,8 +241,8 @@
               </a>
 
               <!-- tiktok -->
-              <a
-                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-500 text-slate-500 hover:border-green hover:bg-green hover:text-white animate__animated animate__zoomIn"
+              <a data-aos="zoom-in" data-aos-duration="2600"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-500 text-slate-500 hover:border-green hover:bg-green hover:text-white "
                 href="https://www.tiktok.com/@rxrey3/"
                 target="_blank"
                 ><svg
@@ -275,17 +271,17 @@
         <div class="w-full px-4">
           <div class="max-w-xl mx-auto text-center mb-16">
             <h4
-              class="font-semibold text-lg text-green mb-2 animate__animated animate__fadeInDown"
+              class="font-semibold text-lg text-green mb-2 " data-aos="fade-up" data-aos-duration="2200"
             >
               Portfolio
             </h4>
             <h2
-              class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white animate__animated animate__fadeInUp"
+              class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white " data-aos="fade-up" data-aos-duration="2300"
             >
               New Project
             </h2>
             <p
-              class="font-medium text-md text-slate-500 md:text-lg animate__animated animate__fadeInUp animate__delay-1s"
+              class="font-medium text-md text-slate-500 md:text-lg " data-aos="fade-up" data-aos-duration="2400"
             >
               Hey, this is my project made in various languages ​​and CSS
               frameworks
@@ -296,7 +292,7 @@
           class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto"
         >
           <div id="myportfolio"
-            class="mb-12 p-4 md:w-1/2 animate__animated animate__fadeInLeft animate__delay-2s"
+            class="mb-12 p-4 md:w-1/2 " data-aos="fade-right" data-aos-duration="2500"
           >
             <div class="rounded-md shadow-md overflow-hidden" >
               <img src="img/p-1.png" alt="my-porfolio" width="w-full" />
@@ -315,7 +311,7 @@
             </div>
           </div>
           <div id="myclass"
-            class="mb-12 p-4 md:w-1/2 animate__animated animate__fadeInRight animate__delay-2s"
+            class="mb-12 p-4 md:w-1/2 " data-aos="fade-left" data-aos-duration="2500"
           >
             <div class="rounded-md shadow-md overflow-hidden"> 
               <img src="img/p-2.png" alt="my-porfolio" width="w-full" />
@@ -339,7 +335,7 @@
           class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto"
         >
             <div id="myperpus"
-            class="mb-12 p-4 md:w-1/2 animate__animated animate__fadeInLeft animate__delay-2s"
+            class="mb-12 p-4 md:w-1/2 " data-aos="fade-right" data-aos-duration="2500"
           >
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="img/p-4.png" alt="my-porfolio" width="w-full" />
@@ -359,7 +355,7 @@
           </div>
        
           <div   id="mysenja"
-            class="mb-12 p-4 md:w-1/2 animate__animated animate__fadeInRight animate__delay-2s"
+            class="mb-12 p-4 md:w-1/2" data-aos="fade-left" data-aos-duration="2500"
           >
             <div class="rounded-md shadow-md overflow-hidden">
              
@@ -392,24 +388,21 @@
     <div class="w-full px-4">
       <div class="mx-auto text-center mb-16">
         <h4
-          class="font-semibold text-lg text-green mb-2 animate__animated animate__fadeInDown"
+          class="font-semibold text-lg text-green mb-2" data-aos="fade-up" data-aos-duration="2200"
         >
           Achievement
         </h4>
         <h2
-          class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white animate__animated animate__fadeInUp"
+          class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white"  data-aos="fade-up" data-aos-duration="2300"
         >
           This is my Achievement
         </h2>
-        <p
-          class="font-medium text-md text-slate-500 md:text-lg animate__animated animate__fadeInUp animate__delay-1s"
-        ></p>
       </div>
       <div
       class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto"
     >
       <div
-        class="mb-12 p-4 md:w-1/2 animate__animated animate__fadeInLeft animate__delay-2s"
+        class="mb-12 p-4 md:w-1/2 "  data-aos="zoom-in" data-aos-duration="2500"
       >
         <div class="rounded-md shadow-md shadow-black overflow-hidden" >
           <img src="img/sertifikatImg/dicoding1.png" width="w-full" />
@@ -426,7 +419,7 @@
         </div>
       </div>
       <div
-        class="mb-12 p-4 md:w-1/2 animate__animated animate__fadeInRight animate__delay-2s"
+        class="mb-12 p-4 md:w-1/2 " data-aos="zoom-in" data-aos-duration="2500"
       >
         <div class="rounded-md shadow-md shadow-black overflow-hidden"> 
           <img src="img/sertifikatImg/dicoding2.png" width="w-full" />
@@ -443,7 +436,7 @@
         </div>
         </div>
       <div
-        class="mb-12 p-4 md:w-1/2 animate__animated animate__fadeInLeft animate__delay-2s"
+        class="mb-12 p-4 md:w-1/2 " data-aos="zoom-in" data-aos-duration="2500"
       >
         <div class="rounded-md shadow-md shadow-black overflow-hidden"> 
           <img src="img/sertifikatImg/dicoding3.png" width="w-full" />
@@ -460,7 +453,7 @@
         </div>
         </div>
       <div
-        class="mb-12 p-4 md:w-1/2 animate__animated animate__fadeInRight animate__delay-2s"
+        class="mb-12 p-4 md:w-1/2" data-aos="zoom-in" data-aos-duration="2500"
       >
         <div class="rounded-md shadow-md shadow-black overflow-hidden"> 
           <img src="img/sertifikatImg/dicoding4.png" width="w-full" />
@@ -477,7 +470,7 @@
         </div>
         </div>
       <div
-        class="mb-12 p-4 md:w-1/2 animate__animated animate__fadeInLeft animate__delay-2s"
+        class="mb-12 p-4 md:w-1/2 " data-aos="zoom-in" data-aos-duration="2500"
       >
         <div class="rounded-md shadow-md shadow-black overflow-hidden"> 
           <img src="img/sertifikatImg/Gogledev.png" width="w-full" />
@@ -494,7 +487,7 @@
         </div>
         </div>
       <div
-        class="mb-12 p-4 md:w-1/2 animate__animated animate__fadeInRight animate__delay-2s"
+        class="mb-12 p-4 md:w-1/2 " data-aos="zoom-in" data-aos-duration="2500"
       >
         <div class="rounded-md shadow-md shadow-black overflow-hidden"> 
           <img src="img/sertifikatImg/sololearn.png" width="w-full" />
@@ -524,18 +517,15 @@
         <div class="w-full px-4">
           <div class="mx-auto text-center mb-16">
             <h4
-              class="font-semibold text-lg text-green mb-2 animate__animated animate__fadeInDown"
+              class="font-semibold text-lg text-green mb-2 " data-aos="fade-up" data-aos-duration="2200"
             >
               Skill
             </h4>
             <h2
-              class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-dark animate__animated animate__fadeInUp"
+              class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-dark" data-aos="fade-up" data-aos-duration="2300"
             >
               This is my skill
             </h2>
-            <p
-              class="font-medium text-md text-slate-500 md:text-lg animate__animated animate__fadeInUp animate__delay-1s"
-            ></p>
           </div>
         </div>
       </div>
@@ -544,7 +534,7 @@
           <a
             href="#"
             target="_blank"
-            class="max-w[120px] mx-4 py-4 grayscale opacity-60 transition duration-300 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8 animate__animated animate__zoomIn"
+            class="max-w[120px] mx-4 py-4 grayscale opacity-60 transition duration-300 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8 "data-aos="zoom-in" data-aos-duration="2500"
           >
             <img src="img/html.png" alt="gogel" class="w-[80px] h-[80px]" />
             <p
@@ -556,7 +546,7 @@
           <a
             href="#"
             target="_blank"
-            class="max-w[120px] mx-4 py-4 grayscale opacity-60 transition duration-300 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8 animate__animated animate__zoomIn"
+            class="max-w[120px] mx-4 py-4 grayscale opacity-60 transition duration-300 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" data-aos="fade-down" data-aos-duration="2500"
           >
             <img
               src="img/tailwind.png"
@@ -571,7 +561,7 @@
           </a>
           <a
             href="#"
-            class="max-w[120px] mx-4 py-4 grayscale opacity-60 transition duration-300 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8 animate__animated animate__zoomIn"
+            class="max-w[120px] mx-4 py-4 grayscale opacity-60 transition duration-300 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" data-aos="zoom-in" data-aos-duration="2500"
             target="_blank"
           >
             <img src="img/css.png" alt="sumatera" class="w-[80px] h-[80px]" />
@@ -592,17 +582,17 @@
         <div class="w-full px-4">
           <div class="max-w-xl mx-auto text-center mb-16">
             <h4
-              class="font-semibold text-lg text-green mb-2 animate__animated animate__fadeInDown"
+              class="font-semibold text-lg text-green mb-2 " data-aos="fade-up" data-aos-duration="2200"
             >
               Contacts
             </h4>
             <h2
-              class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white animate__animated animate__fadeInUp"
+              class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white " data-aos="fade-up" data-aos-duration="2300"
             >
               Hubungi kami
             </h2>
             <p
-              class="font-medium text-md text-slate-500 md:text-lg animate__animated animate__fadeInUp animate__delay-1s"
+              class="font-medium text-md text-slate-500 md:text-lg " data-aos="fade-up" data-aos-duration="2400"
             >
               Thank you for visiting my website. If you have any problems or
               have a message you want to convey, please fill in our contact
@@ -611,7 +601,7 @@
           </div>
           <form>
             <div
-              class="w-full lg:w-2/3 lg:mx-auto animate__animated animate__fadeInUp animate__delay-2s"
+              class="w-full lg:w-2/3 lg:mx-auto " data-aos="zoom-in" data-aos-duration="2500"
             >
               <div class="w-full px-4 mb-4">
                 <label
@@ -857,5 +847,9 @@
         window.open(url, "_blank").focus();
       }
     </script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+  </script>
   </body>
 </html>

@@ -1,3 +1,7 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['index.html'],
